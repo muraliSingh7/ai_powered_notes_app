@@ -11,6 +11,7 @@ export type Note = {
   summary: string | null;
   created_at: string;
   updated_at: string;
+  is_summary_active: boolean;
 };
 
 export type User = {
