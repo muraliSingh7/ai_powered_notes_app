@@ -25,7 +25,15 @@ GROQ_API_KEY=your_groq_api_key
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 ```
-4. Run the development server:
+
+4. Set Up the Database  
+    - Open your Supabase project  
+    - Go to the **SQL Editor**  
+    - Copy and paste the contents of [`postgres.sql`](./postgres.sql) into the editor  
+    - Click **Run** to set up your database schema and policies
+
+
+5. Run the development server:
 
 ```bash
 npm run dev
